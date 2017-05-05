@@ -1,0 +1,37 @@
+{
+  "name": "donghyun208.github.io",
+  "version": "1.0.0",
+  "description": "landing page for github projects",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/donghyun208/donghyun208.github.io.git"
+  },
+  "author": "Donghyun Lee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/donghyun208/donghyun208.github.io/issues"
+  },
+  "homepage": "https://github.com/donghyun208/donghyun208.github.io#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "errorhandler": "^1.5.0",
+    "react": "^15.4.2",
+    "react-bootstrap": "^0.30.8",
+    "react-dom": "^15.4.2",
+    "react-router": "^2.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.0",
+    "babel-preset-react": "^6.23.0",
+    "html-webpack-plugin": "^2.28.0",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.2",
+    "webpack-livereload-plugin": "^0.10.0"
+  }
+}
