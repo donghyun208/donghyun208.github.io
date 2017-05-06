@@ -4,7 +4,6 @@ import ReactRouter, { Router, Route, IndexRoute, hashHistory, browserHistory } f
 import Main from './components/Main';
 console.log(Main)
 
-// <Router history={hashHistory}>
 const routes = (
   <Router history={browserHistory}>
     <Route path="/">

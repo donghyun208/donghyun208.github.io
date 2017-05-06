@@ -19,8 +19,5 @@ module.exports = {
       }
     ]
   },
-  plugins: [LiveReloadPluginConfig],
-  {
-    devtool: "#eval"
-  }
+  plugins: [LiveReloadPluginConfig]
 }
