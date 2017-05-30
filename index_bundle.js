@@ -12580,6 +12580,12 @@ const projects = [{
   source: "https://github.com/donghyun208/resistance",
   description: "Webapp implementation of the party game “Resistance”. Game involves hidden identities, and anonymous voting",
   footer: "MongoDB, Express, AngularJS 1.0, Node.js, Socket.io, d3.js"
+}, {
+  name: "Mafia Game Role Distributor",
+  link: "https://mafia-roles.herokuapp.com",
+  source: "https://github.com/donghyun208/mafia-roles",
+  description: "Mobile App that faciliates the setup to a game of Mafia - pass the phone around as the website notifies each player of their randomly chosen identity (and also reveals the identity of other mafia if needed).",
+  footer: "Node.js"
 }];
 
 class Main extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
