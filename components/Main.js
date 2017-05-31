@@ -62,6 +62,7 @@ class Main extends Component {
           <Project data={projects[0]}></Project>
           <Project data={projects[1]}></Project>
           <Project data={projects[2]}></Project>
+          <Project data={projects[3]}></Project>
         </ProjectCollection>
       </div>
     );

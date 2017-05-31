@@ -12620,7 +12620,8 @@ class Main extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
         null,
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__Project__["a" /* default */], { data: projects[0] }),
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__Project__["a" /* default */], { data: projects[1] }),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__Project__["a" /* default */], { data: projects[2] })
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__Project__["a" /* default */], { data: projects[2] }),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__Project__["a" /* default */], { data: projects[3] })
       )
     );
   }
@@ -12690,7 +12691,7 @@ class Project extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
         ),
         this.props.data.footer && __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
           'p',
-          null,
+          { style: { 'color': '#504A4B' } },
           ' ',
           this.props.data.footer,
           ' '

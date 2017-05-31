@@ -42,7 +42,7 @@ class Project extends Component {
             <p className="lead"> {this.props.data.description} </p>
           )}
           {this.props.data.footer && (
-            <p> {this.props.data.footer} </p>
+            <p style={{'color':'#504A4B'}}> {this.props.data.footer} </p>
           )}
         </div>
       </div>
