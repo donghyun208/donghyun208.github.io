@@ -18,6 +18,13 @@ const projects = [
     footer: "AngularJS 1.0, Bootstrap"
   },
   {
+    name : "Multiplayer SlitherLink",
+    link: "http://slitherlink.herokuapp.com",
+    source: "https://github.com/donghyun208/slitherlink",
+    description: "A multiplayer version of the logic puzzle game Slitherlink",
+    footer: "JavaScript(ES6), ReactJS, Node.js, Socket.io"
+  },
+  {
     name : "Resistance Game Mobile App",
     link: "https://resistancegame.herokuapp.com",
     source: "https://github.com/donghyun208/resistance",
@@ -63,6 +70,7 @@ class Main extends Component {
           <Project data={projects[1]}></Project>
           <Project data={projects[2]}></Project>
           <Project data={projects[3]}></Project>
+          <Project data={projects[4]}></Project>
         </ProjectCollection>
       </div>
     );

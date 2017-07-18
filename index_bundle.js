@@ -12575,6 +12575,12 @@ const projects = [{
   description: "Teaching demos for Physical Chemistry (Chem 120) at UC Berkeley (2014-2016): Website with visualizations that demonstrate various concepts in quantum mechanics – Particle-in-a-box, Harmonic Oscillator, Particle-on-a-Ring, superposition principle, time-evolution, Huckel Theory, degeneracy.",
   footer: "AngularJS 1.0, Bootstrap"
 }, {
+  name: "Multiplayer SlitherLink",
+  link: "http://slitherlink.herokuapp.com",
+  source: "https://github.com/donghyun208/slitherlink",
+  description: "A multiplayer version of the logic puzzle game Slitherlink",
+  footer: "JavaScript(ES6), ReactJS, Node.js, Socket.io"
+}, {
   name: "Resistance Game Mobile App",
   link: "https://resistancegame.herokuapp.com",
   source: "https://github.com/donghyun208/resistance",
@@ -12621,7 +12627,8 @@ class Main extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__Project__["a" /* default */], { data: projects[0] }),
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__Project__["a" /* default */], { data: projects[1] }),
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__Project__["a" /* default */], { data: projects[2] }),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__Project__["a" /* default */], { data: projects[3] })
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__Project__["a" /* default */], { data: projects[3] }),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__Project__["a" /* default */], { data: projects[4] })
       )
     );
   }
