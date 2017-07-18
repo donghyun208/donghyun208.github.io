@@ -40,6 +40,10 @@ const projects = [
   }
 ]
 
+const projects_JSX = projects.map((proj) => {
+  return <Project data={proj}></Project>
+})
+
 
 class Main extends Component {
   constructor(props) {
@@ -66,11 +70,7 @@ class Main extends Component {
           Projects
         </p>
         <ProjectCollection>
-          <Project data={projects[0]}></Project>
-          <Project data={projects[1]}></Project>
-          <Project data={projects[2]}></Project>
-          <Project data={projects[3]}></Project>
-          <Project data={projects[4]}></Project>
+          {projects_JSX}
         </ProjectCollection>
       </div>
     );
